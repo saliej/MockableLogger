@@ -2,6 +2,10 @@
 
 A logger adapter for `Microsoft.Extensions.Logging.ILogger<T>` that enables easy mocking and verification of log calls in unit tests.
 
+[![NuGet](https://img.shields.io/nuget/v/MockableLogger.svg)](https://www.nuget.org/packages/MockableLogger/)
+[![Downloads](https://img.shields.io/nuget/dt/MockableLogger.svg)](https://www.nuget.org/packages/MockableLogger/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ## The Problem
 
 Microsoft's `ILogger<T>` interface uses extension methods for common logging operations (`LogInformation`, `LogError`, etc.). These extension methods cannot be directly mocked because they're not part of the interface contract. This makes it difficult to verify that specific log messages were written during unit tests.
