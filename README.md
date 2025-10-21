@@ -166,24 +166,10 @@ public void MyMethod_LogsMessage_WithFakeLogger()
 }
 ```
 
-**FakeLogger Characteristics:**
-- Captures all log entries for inspection
-- No mocking framework required
-- More verbose assertions (inspect collection, check properties)
-- Harder to verify specific method overloads were called
-- Less expressive for complex verification scenarios
-
-**MockableLogger Characteristics:**
-- Direct, expressive verification syntax
-- Leverage full power of mocking frameworks (argument matching, verification, etc.)
-- Verify specific overloads (with/without EventId, Exception, etc.)
-- Requires a mocking framework
-
 ### When to Use Each
 
 **Use FakeLogger when:**
 - You want to avoid mocking frameworks
-- You need to inspect all logged entries
 - You're doing simple log verification
 
 **Use MockableLogger when:**
