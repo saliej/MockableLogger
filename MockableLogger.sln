@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockableLogger", "MockableLogger\MockableLogger.csproj", "{BE7B5430-7F5A-4DFE-BE80-2654EB6D80A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockableLogger.UnitTests", "MockableLogger.UnitTests\MockableLogger.UnitTests.csproj", "{DB034FA4-6E1A-4372-86AA-BC8FB6359B43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7B5430-7F5A-4DFE-BE80-2654EB6D80A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7B5430-7F5A-4DFE-BE80-2654EB6D80A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7B5430-7F5A-4DFE-BE80-2654EB6D80A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7B5430-7F5A-4DFE-BE80-2654EB6D80A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB034FA4-6E1A-4372-86AA-BC8FB6359B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB034FA4-6E1A-4372-86AA-BC8FB6359B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB034FA4-6E1A-4372-86AA-BC8FB6359B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB034FA4-6E1A-4372-86AA-BC8FB6359B43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {528F38AE-C2B8-47C6-80EA-BFBF3355F4C2}
+	EndGlobalSection
+EndGlobal
